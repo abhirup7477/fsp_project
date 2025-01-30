@@ -13,11 +13,13 @@ login_body{
 .Login{
     background-image: url("/public/hero-img.jpg");
     background-color: rgba(94, 109, 101, 0.311);
-    height: 700px;
+    height: 729px;
     width: 100%;
     justify-items: center;
     align-items: center;
     display: flex;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 login_body{
@@ -49,7 +51,7 @@ nav img{
     position: absolute;
     left: 50%;
     top: 56%;
-    height: 620px;
+    height: 591px;
     width: 420px;
     background: rgba(0, 0, 0, 0.75);
     transform: translate(-50%, -50%);
@@ -76,6 +78,8 @@ form .form_control {
     border-style: solid;
     border-width: 0.5px;
     border-color: rgba(255, 255, 255, 0.5);
+    color: whitesmoke;
+    font-size: 15px;
 }
 
 .form_control input:hover{
@@ -97,7 +101,7 @@ form .form_control {
     color: white;
     background: rgb(0, 64, 255);
     border-color: transparent;
-    margin-bottom: 14px;
+    margin-bottom: -3px;
 }
 
 #submit button:hover{
@@ -197,4 +201,20 @@ input[type="checkbox"]:checked {
 
 #foot a:hover{
     text-decoration: underline;
+}
+
+.google-btn{
+    width: 314px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    background: rgb(0, 64, 255);
+    border-color: transparent;
+    margin-bottom: 14px;
+}
+
+.google-btn:hover{
+    background: #0217d4;
 }

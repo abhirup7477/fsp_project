@@ -96,7 +96,7 @@ export default function Login() {
                         {error && <p className="error-message">{error}</p>}
                         <p>OR</p>
                         <div id="google-login">
-                            <button
+                            <button id="google-login-btn"
                                 onClick={handleGoogleLogin}
                                 disabled={loading}
                                 className="google-btn"

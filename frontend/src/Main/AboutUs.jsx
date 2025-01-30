@@ -13,7 +13,7 @@ export default function AboutUs(){
                     </div>
                     <div className="aboutus-navbar-items aboutus-navbar-links">
                         <ul className="aboutus-navbar-links-list">
-                            <Link className="aboutus-navbar-links-list-items">hlfhslhf</Link>
+                            <Link className="aboutus-navbar-links-list-items">Home</Link>
                             <Link className="aboutus-navbar-links-list-items">hlfhslhf</Link>
                             <Link className="aboutus-navbar-links-list-items">hlfhslhf</Link>
                             <Link className="aboutus-navbar-links-list-items">hlfhslhf</Link>
