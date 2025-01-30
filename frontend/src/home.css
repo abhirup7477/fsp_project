@@ -1,0 +1,88 @@
+.header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    z-index: 10;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    /* background-color: white; */
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navLink{
+    padding: 45px 10px 40px 20px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(204, 193, 193);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navLink:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.logo{
+    height: 130px;
+    width: 150px;
+    flex: 0;
+}
+
+/* .navbar-links{
+    flex: 6;
+} */
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.login{
+    margin-left: 40px;
+}
+
+.loginButton{
+    height: 36px;
+    width: 121px;
+    position: relative;
+    right: 20px;
+    border-radius: 10px;
+    border: 0px solid;
+    background-color:  rgb(204, 193, 193);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.loginButton:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+    font-weight: bold;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    width: 125px;
+    height: 40px
+}

@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+login_body{
+    background: #000;
+}
+
+.Login{
+    background-image: url("/public/hero-img.jpg");
+    background-color: rgba(94, 109, 101, 0.311);
+    height: 700px;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+
+login_body{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url("/public/hero-img.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.7;
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+    top: -30px;
+    left: 160px;
+}
+
+nav img{
+    height: 150px;
+    width: 150px;
+}
+
+.form_wrapper{
+    position: absolute;
+    left: 50%;
+    top: 56%;
+    height: 620px;
+    width: 420px;
+    background: rgba(0, 0, 0, 0.75);
+    transform: translate(-50%, -50%);
+    padding: 50px 50px;
+}
+
+.form_wrapper h2{
+    color: white;
+    text-align: left;
+    font-size: 32px;
+    padding: 0 0 35px 0;
+}
+
+form .form_control {
+    height: 50px;
+    margin-bottom: 24px;
+}
+
+.form_control input{
+    border-radius: 4px;
+    width: 314px;
+    height: 56px;
+    background: rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.form_control input:hover{
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(62, 62, 246);
+}
+
+.form_control label {
+    color: aliceblue;
+}
+
+#submit button{
+    width: 314px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    background: rgb(0, 64, 255);
+    border-color: transparent;
+    margin-bottom: 14px;
+}
+
+#submit button:hover{
+    background: #0217d4;
+}
+
+form p{
+    margin-bottom: 14px;
+    color: #ffffffb3;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#signCode button{
+    height: 40px;
+    width: 314px;
+    border-radius: 6px;
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#signCode button:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#forget {
+   
+    text-align: center; 
+    margin: 10px 0; 
+}
+
+#forget a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block; 
+}
+
+#forget a:hover{
+    text-decoration: underline;
+}
+
+.form_help label{
+    margin-left: 8px;
+    color: white;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color:transparent;
+    height: 18px;
+    width: 18px;
+    font-size: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+  }
+  
+input[type="checkbox"]:checked {
+    background-color: #8192a5; 
+    border-color: transparent;
+    border-radius: 2px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23fff' d='M13.354 3.354a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L6 9.293l6.646-6.647a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+}
+
+.form_wrapper p{
+    margin-top: 18px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form_wrapper p a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.form_wrapper p a:hover{
+    text-decoration: underline;
+}
+
+#foot {
+    margin-top: 18px;
+    width: 275.6px;
+    height: 35px;
+    font-size: 15px;
+    color: #8c8c8c;
+}
+
+#foot a{
+    color: #0071eb;
+    text-decoration: none;
+}
+
+#foot a:hover{
+    text-decoration: underline;
+}
