@@ -1,7 +1,7 @@
 import { Router } from "express";
-const router = Router();
 import Movie, { find } from "../models/Movie";
 
+export const router = Router();
 // 📌 Get all movies
 router.get("/", async (req, res) => {
   try {

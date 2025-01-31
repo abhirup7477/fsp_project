@@ -1,7 +1,7 @@
 const express = require("express")
 const {registerUser, LoginUser, loginWithGoogle} = require("../../control/authControl")
 
-const router = express.Router()
+export const router = express.Router()
 
 router.post("/register", registerUser)
 
@@ -18,5 +18,3 @@ router.post("/login", async (req, res) => {
         return res.status(400).json({message: "Invalid"})
     }
 })
-
-module.exports = router;
