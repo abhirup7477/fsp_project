@@ -1,11 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import logo from './logo.svg';
 import './App.css';
-import Home from "./Main/Home"
-import Login from "./Main/Login"
-import AboutUs from "./Main/AboutUs"
-import "./home.css";
-import "./aboutus.css";
+import Home from "./pages/Home"
+import Login from "./pages/Login"
+import AboutUs from "./pages/AboutUs"
 
 
 function App() {
@@ -13,10 +10,10 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />}/>
-        <Route path="/aboutus" element={<AboutUs />}/>
+        <Route path="/login" element={<Login />} />
+        <Route path="/aboutus" element={<AboutUs />} />
       </Routes>
-      
+
     </>
   );
 }
