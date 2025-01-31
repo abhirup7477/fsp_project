@@ -41,7 +41,7 @@ export default function Home() {
       </div>
 
       <div className="banner">
-        <h1>Featured Show</h1>
+        <h1>Stream Heaven</h1>
         <p>Watch the latest and greatest now!</p>
       </div>
 

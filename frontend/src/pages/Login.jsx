@@ -4,6 +4,7 @@ import "../styles/login.css";
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -65,7 +66,9 @@ export default function Login() {
     <div className="Login">
       <div id="login_body">
         <nav>
-          <img src="logo.svg" alt="logo" />
+          <Link to="/">
+            <img src="logo.svg" alt="logo" />
+          </Link>
         </nav>
         <div className="form_wrapper">
           <h2>Sign In</h2>
@@ -106,7 +109,7 @@ export default function Login() {
             </div>
           </form>
           <p>
-            New to StreamHaven? <a href="#">Sign up now</a>
+            New to StreamHaven? <Link to="/signup">Sign up now</Link>
           </p>
           <div id="foot">
             <small>
